@@ -1,4 +1,4 @@
-Sitemap: http://dodcott.org/sitemapindex.xml
+Sitemap: http://hannahbarton.org.uk/sitemapindex.xml
 
 User-Agent: *
-Host: dodcott.org
+Host: hannahbarton.org.uk

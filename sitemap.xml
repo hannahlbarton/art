@@ -6,123 +6,123 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://dodcott.org/</loc>
+  <loc>http://hannahbarton.org.uk/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/2012/</loc>
+  <loc>http://hannahbarton.org.uk/2012/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/archive.html</loc>
-  <lastmod>2018-07-09T16:15:00Z</lastmod>
+  <loc>http://hannahbarton.org.uk/archive.html</loc>
+  <lastmod>2018-07-09T17:31:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/categories/</loc>
+  <loc>http://hannahbarton.org.uk/categories/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/categories/blog/</loc>
+  <loc>http://hannahbarton.org.uk/categories/blog/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/categories/cat_nikola/</loc>
+  <loc>http://hannahbarton.org.uk/categories/cat_nikola/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/categories/demo/</loc>
+  <loc>http://hannahbarton.org.uk/categories/demo/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/categories/nikola/</loc>
+  <loc>http://hannahbarton.org.uk/categories/nikola/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/categories/python/</loc>
+  <loc>http://hannahbarton.org.uk/categories/python/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/galleries/</loc>
+  <loc>http://hannahbarton.org.uk/galleries/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/galleries/demo/</loc>
+  <loc>http://hannahbarton.org.uk/galleries/demo/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/listings/</loc>
+  <loc>http://hannahbarton.org.uk/listings/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/listings/__pycache__/</loc>
+  <loc>http://hannahbarton.org.uk/listings/__pycache__/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/listings/hello.py.html</loc>
-  <lastmod>2018-07-09T16:15:00Z</lastmod>
+  <loc>http://hannahbarton.org.uk/listings/hello.py.html</loc>
+  <lastmod>2018-07-09T17:31:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/about-nikola/</loc>
+  <loc>http://hannahbarton.org.uk/pages/about-nikola/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/bootstrap-demo/</loc>
+  <loc>http://hannahbarton.org.uk/pages/bootstrap-demo/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/charts/</loc>
+  <loc>http://hannahbarton.org.uk/pages/charts/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/creating-a-theme/</loc>
+  <loc>http://hannahbarton.org.uk/pages/creating-a-theme/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/dr-nikolas-vendetta/</loc>
+  <loc>http://hannahbarton.org.uk/pages/dr-nikolas-vendetta/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/extending/</loc>
+  <loc>http://hannahbarton.org.uk/pages/extending/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/handbook/</loc>
+  <loc>http://hannahbarton.org.uk/pages/handbook/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/internals/</loc>
+  <loc>http://hannahbarton.org.uk/pages/internals/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/listings-demo/</loc>
+  <loc>http://hannahbarton.org.uk/pages/listings-demo/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/path-handlers/</loc>
+  <loc>http://hannahbarton.org.uk/pages/path-handlers/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/quickref/</loc>
+  <loc>http://hannahbarton.org.uk/pages/quickref/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/quickstart/</loc>
+  <loc>http://hannahbarton.org.uk/pages/quickstart/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/slides-demo/</loc>
+  <loc>http://hannahbarton.org.uk/pages/slides-demo/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/social_buttons/</loc>
+  <loc>http://hannahbarton.org.uk/pages/social_buttons/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/pages/theming/</loc>
+  <loc>http://hannahbarton.org.uk/pages/theming/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://dodcott.org/posts/welcome-to-nikola/</loc>
+  <loc>http://hannahbarton.org.uk/posts/welcome-to-nikola/</loc>
   <lastmod>2018-07-09T16:14:00Z</lastmod>
  </url>
 </urlset>
