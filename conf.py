@@ -17,16 +17,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Dodcott-cum-Wilkesley Parish Council"  # (translatable)
-BLOG_TITLE = "Dodcott-cum-Wilkesley"  # (translatable)
+BLOG_AUTHOR = "Hannah Barton"  # (translatable)
+BLOG_TITLE = "Hannah's Art Blog"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://dodcott.org/"
+SITE_URL = "http://hannahbarton.org.uk/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://dodcott.org/"
-BLOG_EMAIL = "ian@manor-farm.org"
-BLOG_DESCRIPTION = "Dodcott-cum-Wilkesley Parish Council."  # (translatable)
+# BASE_URL = "http://hannahbarton.org.uk/"
+BLOG_EMAIL = "hannah@wilkesley.com"
+BLOG_DESCRIPTION = "Hannah's Art Blog."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -167,7 +167,15 @@ NAVIGATION_LINKS = {
 # }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "bootstrap4"
+LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+#GLOBAL_CONTEXT = {
+#            'TWITTER_URL': 'https://twitter.com/getnikola',
+#            'GITHUB_URL': 'https://github.com/getnikola',
+#            'BANNER_URL': '/assets/img/silk-road.jpg'
+#}
+
+
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
