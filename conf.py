@@ -132,39 +132,39 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/pages/about/index.html", "About"),
-
-        ((("/pages/parish_council/index.html", "Parish Council"),
-          ("/pages/transparency/index.html", "Transparency"),
-          ('/pages/meetings/minutes-agendas/index.html', 'Parish Council Meetings and Agendas.')), 'Parish Council'),
-
-        ("/pages/contributing/index.html", "Contributing"),
-        ("/pages/contact/index.html", "Contact"),
-
-        #((("/pages/contact/index.html", "Contact"),
-        #  ('/pages/meetings/index.html', 'Meetings')), 'Meetings'),
-
-        ("/rss.xml", "RSS feed"),
-
-
-
-    ),
-}
-
 # NAVIGATION_LINKS = {
 #     DEFAULT_LANG: (
-#         ('/archive.html', 'Archives'),
-#         ('/categories/index.html', 'Tags'),
-#         ('/rss.xml', 'RSS'),
-#         ((('/foo', 'FOO'),
-#           ('/bar', 'BAR')), 'BAZ'),
-#     ),
+#         ("/archive.html", "Archive"),
+#         ("/categories/", "Tags"),
+#         ("/pages/about/index.html", "About"),
 
+#         ((("/pages/parish_council/index.html", "Parish Council"),
+#           ("/pages/transparency/index.html", "Transparency"),
+#           ('/pages/meetings/minutes-agendas/index.html', 'Parish Council Meetings and Agendas.')), 'Parish Council'),
+
+#         ("/pages/contributing/index.html", "Contributing"),
+#         ("/pages/contact/index.html", "Contact"),
+
+#         #((("/pages/contact/index.html", "Contact"),
+#         #  ('/pages/meetings/index.html', 'Meetings')), 'Meetings'),
+
+#         ("/rss.xml", "RSS feed"),
+
+
+
+#     ),
 # }
+
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ('/archive.html', 'Archives'),
+        ('/categories/index.html', 'Tags'),
+        ('/rss.xml', 'RSS'),
+        ((('/foo', 'FOO'),
+          ('/bar', 'BAR')), 'BAZ'),
+    ),
+
+}
 
 # Name of the theme to use.
 THEME = "bootstrap4"
