@@ -167,7 +167,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap4"
+THEME = "canterville"
 LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
 #GLOBAL_CONTEXT = {
 #            'TWITTER_URL': 'https://twitter.com/getnikola',
