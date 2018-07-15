@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,53 +41,32 @@ By Default, the themes provided with Nikola will add to your pages a "slide in" 
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark static-top mb-4"><div class="container">
 <!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://hannahbarton.org.uk/">
-                <img src="https://getnikola.com/assets/img/logo.svg" alt="Hannah's Art Blog" id="logo"><span id="blog-title">Hannah's Art Blog</span>
-            </a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" role="navigation" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../../archive.html">Archive</a>
+        <a class="navbar-brand" href="http://hannahbarton.org.uk/">
+            <img src="https://getnikola.com/assets/img/logo.svg" alt="Hannah's Art Blog" id="logo" class="d-inline-block align-top"><span id="blog-title">Hannah's Art Blog</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../../archive.html" class="nav-link">Archives</a>
                 </li>
-<li>
-<a href="../../categories/">Tags</a>
+<li class="nav-item">
+<a href="../../categories/index.html" class="nav-link">Tags</a>
                 </li>
-<li>
-<a href="../about/index.html">About</a>
+<li class="nav-item">
+<a href="../../rss.xml" class="nav-link">RSS</a>
             </li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parish Council <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-<li>
-<a href="../parish_council/index.html">Parish Council</a>
-                    </li>
-<li>
-<a href="../transparency/index.html">Transparency</a>
-                    </li>
-<li>
-<a href="../meetings/minutes-agendas/index.html">Parish Council Meetings and Agendas.</a>
-            </li>
-</ul>
-</li>
-<li>
-<a href="../contributing/index.html">Contributing</a>
-                </li>
-<li>
-<a href="../contact/index.html">Contact</a>
-                </li>
-<li>
-<a href="../../rss.xml">RSS feed</a>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BAZ</a>
+            <div class="dropdown-menu">
+                    <a href="../../foo" class="dropdown-item">FOO</a>
+                    <a href="../../bar" class="dropdown-item">BAR</a>
+            </div>
 
                 
             </li>
@@ -103,10 +83,11 @@ By Default, the themes provided with Nikola will add to your pages a "slide in" 
  <!-- End of custom search -->
  
 
-            <ul class="nav navbar-nav navbar-right">
-<li>
-    <a href="index.txt" id="sourcelink">Source</a>
+            <ul class="navbar-nav navbar-right">
+<li class="nav-item">
+    <a href="index.txt" id="sourcelink" class="nav-link">Source</a>
     </li>
+
 
                 
             </ul>
@@ -117,9 +98,8 @@ By Default, the themes provided with Nikola will add to your pages a "slide in" 
 </nav><!-- End of Menubar --><div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
-        <div class="row">
-            
-            
+        
+        
 <article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Alternative Social Buttons</a></h1>
 
         
@@ -151,19 +131,19 @@ By Default, the themes provided with Nikola will add to your pages a "slide in" 
 <h2><a class="toc-backref" href="#id1">The Default</a></h2>
 <p>By Default, the themes provided with Nikola will add to your pages a "slide in" widget at
 the bottom right of the page, provided by Addthis. This is the HTML code for that:</p>
-<pre class="code html"><a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-1"></a><span class="c">&lt;!-- Social buttons --&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-2"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">"addthisbox"</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_toolbox addthis_peekaboo_style</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-3"></a><span class="s">    addthis_default_style addthis_label_style addthis_32x32_style"</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-4"></a><span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_more"</span><span class="p">&gt;</span>Share<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-5"></a><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_facebook"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-6"></a><span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_google_plusone_share"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-7"></a><span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_linkedin"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-8"></a><span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_twitter"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-9"></a><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-10"></a><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-11"></a><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-12"></a><span class="c">&lt;!-- End of social buttons --&gt;</span>
-<a name="rest_code_fa712d0a02c249c49ff4c5303a0cb890-13"></a>"""
+<pre class="code html"><a name="rest_code_6975f05f6a5c47239b498a46c265a72d-1"></a><span class="c">&lt;!-- Social buttons --&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-2"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">"addthisbox"</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_toolbox addthis_peekaboo_style</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-3"></a><span class="s">    addthis_default_style addthis_label_style addthis_32x32_style"</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-4"></a><span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_more"</span><span class="p">&gt;</span>Share<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-5"></a><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_facebook"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-6"></a><span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_google_plusone_share"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-7"></a><span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_linkedin"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-8"></a><span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"addthis_button_twitter"</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-9"></a><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-10"></a><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-11"></a><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-12"></a><span class="c">&lt;!-- End of social buttons --&gt;</span>
+<a name="rest_code_6975f05f6a5c47239b498a46c265a72d-13"></a>"""
 </pre>
 <p>You can change that using the <tt class="docutils literal">SOCIAL_BUTTONS_CODE</tt> option in your conf.py. In some cases, just
 doing that will be enough but in others, it won't. This document tries to describe all the bits
@@ -214,20 +194,20 @@ $ nikola auto -b
 </pre>
 <p>First, let's add the HTML snippet that will show the sharing options. In your conf.py, set this, which
 is the HTML code suggested by ShareNice:</p>
-<pre class="code python"><a name="rest_code_e2e6fdc5c61843f8887f9b3273d5a50e-1"></a><span class="n">SOCIAL_BUTTONS_CODE</span> <span class="o">=</span> <span class="s2">"""&lt;div id="shareNice" data-share-label="Share"</span>
-<a name="rest_code_e2e6fdc5c61843f8887f9b3273d5a50e-2"></a><span class="s2">    data-color-scheme="black" data-icon-size="32" data-panel-bottom="plain"</span>
-<a name="rest_code_e2e6fdc5c61843f8887f9b3273d5a50e-3"></a><span class="s2">    data-services="plus.google.com,facebook.com,digg.com,email,delicious.com,twitter.com"</span>
-<a name="rest_code_e2e6fdc5c61843f8887f9b3273d5a50e-4"></a><span class="s2">    style="float:right"&gt;&lt;/div&gt;"""</span>
-<a name="rest_code_e2e6fdc5c61843f8887f9b3273d5a50e-5"></a>
-<a name="rest_code_e2e6fdc5c61843f8887f9b3273d5a50e-6"></a><span class="n">BODY_END</span> <span class="o">=</span> <span class="s2">"""&lt;script src="http://graingert.co.uk/shareNice/code.js"&gt;&lt;/script&gt;"""</span>
+<pre class="code python"><a name="rest_code_edde2ab7d0e346a883ab720480b643c5-1"></a><span class="n">SOCIAL_BUTTONS_CODE</span> <span class="o">=</span> <span class="s2">"""&lt;div id="shareNice" data-share-label="Share"</span>
+<a name="rest_code_edde2ab7d0e346a883ab720480b643c5-2"></a><span class="s2">    data-color-scheme="black" data-icon-size="32" data-panel-bottom="plain"</span>
+<a name="rest_code_edde2ab7d0e346a883ab720480b643c5-3"></a><span class="s2">    data-services="plus.google.com,facebook.com,digg.com,email,delicious.com,twitter.com"</span>
+<a name="rest_code_edde2ab7d0e346a883ab720480b643c5-4"></a><span class="s2">    style="float:right"&gt;&lt;/div&gt;"""</span>
+<a name="rest_code_edde2ab7d0e346a883ab720480b643c5-5"></a>
+<a name="rest_code_edde2ab7d0e346a883ab720480b643c5-6"></a><span class="n">BODY_END</span> <span class="o">=</span> <span class="s2">"""&lt;script src="http://graingert.co.uk/shareNice/code.js"&gt;&lt;/script&gt;"""</span>
 </pre>
 <p>And you should now see a sharing box at the bottom right of the page.</p>
 <p>Main problem remaining is that it doesn't really look good and integrated in the page layout.
 I suggest changing the code to this which looks nicer, but still has some placement issues:</p>
-<pre class="code python"><a name="rest_code_8d24a218d52e4fd4bab7618e6c228973-1"></a><span class="n">SOCIAL_BUTTONS_CODE</span> <span class="o">=</span> <span class="s2">"""&lt;div id="shareNice" data-share-label="Share"</span>
-<a name="rest_code_8d24a218d52e4fd4bab7618e6c228973-2"></a><span class="s2">    data-color-scheme="black" data-icon-size="32" data-panel-bottom="plain"</span>
-<a name="rest_code_8d24a218d52e4fd4bab7618e6c228973-3"></a><span class="s2">    data-services="plus.google.com,facebook.com,email,twitter.com"</span>
-<a name="rest_code_8d24a218d52e4fd4bab7618e6c228973-4"></a><span class="s2">    style="position: absolute; left: 20px; top: 60px;"&gt;&lt;/div&gt;"""</span>
+<pre class="code python"><a name="rest_code_10717b876849487698d13fc1b760b061-1"></a><span class="n">SOCIAL_BUTTONS_CODE</span> <span class="o">=</span> <span class="s2">"""&lt;div id="shareNice" data-share-label="Share"</span>
+<a name="rest_code_10717b876849487698d13fc1b760b061-2"></a><span class="s2">    data-color-scheme="black" data-icon-size="32" data-panel-bottom="plain"</span>
+<a name="rest_code_10717b876849487698d13fc1b760b061-3"></a><span class="s2">    data-services="plus.google.com,facebook.com,email,twitter.com"</span>
+<a name="rest_code_10717b876849487698d13fc1b760b061-4"></a><span class="s2">    style="position: absolute; left: 20px; top: 60px;"&gt;&lt;/div&gt;"""</span>
 </pre>
 <p>If anyone comes up with a better idea of styling/placement, just let me know ;-)</p>
 <p>One bad bit of this so far is that you are now using a script from another site, and that
@@ -275,16 +255,16 @@ $ cp -Rv SocialSharePrivacy-master/build/* files/
 $ cp -R SocialSharePrivacy-master/images/ files/assets/
 </pre>
 <p>Edit your <tt class="docutils literal">conf.py</tt>:</p>
-<pre class="code python"><a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-1"></a><span class="n">BODY_END</span> <span class="o">=</span> <span class="s2">"""</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-2"></a><span class="s2">&lt;script src="/javascripts/jquery.socialshareprivacy.min.js"&gt;&lt;/script&gt;</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-3"></a><span class="s2">&lt;script&gt;</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-4"></a><span class="s2">$(document).ready(function () {</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-5"></a><span class="s2">    $('.share').socialSharePrivacy();</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-6"></a><span class="s2">});</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-7"></a><span class="s2">&lt;/script&gt;</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-8"></a><span class="s2">"""</span>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-9"></a>
-<a name="rest_code_56ef635b6d0c4f66af0fb7cd500e5df3-10"></a><span class="n">SOCIAL_BUTTONS_CODE</span> <span class="o">=</span> <span class="s2">"""&lt;div class="share"&gt;&lt;/div&gt;"""</span>
+<pre class="code python"><a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-1"></a><span class="n">BODY_END</span> <span class="o">=</span> <span class="s2">"""</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-2"></a><span class="s2">&lt;script src="/javascripts/jquery.socialshareprivacy.min.js"&gt;&lt;/script&gt;</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-3"></a><span class="s2">&lt;script&gt;</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-4"></a><span class="s2">$(document).ready(function () {</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-5"></a><span class="s2">    $('.share').socialSharePrivacy();</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-6"></a><span class="s2">});</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-7"></a><span class="s2">&lt;/script&gt;</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-8"></a><span class="s2">"""</span>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-9"></a>
+<a name="rest_code_e2b72123fed94fc8b7d19bfc7ed75710-10"></a><span class="n">SOCIAL_BUTTONS_CODE</span> <span class="o">=</span> <span class="s2">"""&lt;div class="share"&gt;&lt;/div&gt;"""</span>
 </pre>
 <p>In my experience this produces a broken, duplicate, semi-working thing. YMMV and if you make it work correctly, let me know how :-)</p>
 </div>
@@ -312,11 +292,7 @@ you have one.</p>
     </div>
     
 
-</article>
-</div>
-        <!--End of body content-->
-
-        <footer id="footer">
+</article><!--End of body content--><footer id="footer">
             Contents © 2018         <a href="mailto:hannah@wilkesley.com">Hannah Barton</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
         </footer>
@@ -324,10 +300,16 @@ you have one.</p>
 </div>
 
 
-            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+        <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates --><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-46799003-1"></script><script>
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-46799003-1"></script><script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
